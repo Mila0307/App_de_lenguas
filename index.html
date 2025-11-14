@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img width="90" height="90" src="imgs/Logo lenguas1.PNG" alt="" />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="#lenguas">Productos</a></li>
+        <li>
+          <a href="">Promociones</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tarjeta de credito</a></li>
+            <li><a href="">Tarjeta de debito</a></li>
+            <li><a href="">beneficio de viaje</a></li>
+            <li><a href="">Plin</a></li>
+          </ul>
+        </li>
+        <li><a href="#zona-digital">Zona digital</a></li>
+        <li><a href="#contactanos">Contactanos</a></li>
+      </ul>
+    </nav>
+    <seccion productos>
+      <section class="seccion-Lenguas" id="lenguas">    
+       <div class="div-general-Lenguas">    
+        <div class="div-prod-text"> 
+          <h2> Seccion Lenguas</h2>
+            <p>Las lenguas originarias son idiomas que se originaron y desarrollaron 
+              en el continente americano antes de la llegada de los europeos</p> 
+            <button> Mas info...</button>  
+        </div>    
+        <div class="div-prod-img"> 
+          <img src="imgs/lenguas 1.jpg">
+        </div>    
+       </div>
+       <section class="seccion-zondig" id="zona-digital">    
+        <div class="div-general-zondig">    
+         <div class="div-zondig-text"> 
+          <h3> Seccion Nosotros </h3>
+            <p>OBJETIVOS:</p>
+            <p>Preservar las lenguas originarias a lo largo del tiempo</p>
+          </div>    
+         <div class="div-zondig-video"> 
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/AF4dgPncQGs?si=Km9E832205MqADqW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>    
+        </div>
+       </section>
+       <!--seccion formulario-->
+       <section class="seccion-formulario" id="contactanos">
+        <div class="div-cont-formulario">
+          <h2>Inicio de sesion</h2>
+          <p>Complete todos los campos...</p>
+            <form class="formulario-usuario">
+              <!--INPUT:TEXT-->
+              <div class="campo">
+                <label for="nombres">Usuario/Correo:</label>
+                <input type="text" id="usuario" name="usuario" placeholder="ingrese su usuario o correo">
+              </div>
+              <!--INPUT:DESPLEGABLE-->
+              <div class="campo">
+                <label for="nombres">Idioma</label>
+                <select id="idioma" name="idioma">
+                  <option value="">seleccione un idioma</option>
+                  <option value="quechua">Quechua</option>
+                  <option value="aymara">Aymara</option>
+                </select>
+              </div>
+              <!--INPUT:checkbot-->
+              <div class="campo">
+                <label>Segmento:</label>
+                <ul class="lista-checkbox">
+                  <li><label><input type="checkbox" name="segmento" value="alumno">Alumno</label></li>
+                  <li><label><input type="checkbox" name="segmento" value="turista">Turista</label></li>
+                  <li><label><input type="checkbox" name="segmento" value="docente">Docente</label></li>
+                </ul>
+              </div>
+              <!--INPUT:TEXT-->
+              <div class="campo">
+                <label>dispositivos:</label>
+                <ul class="lista-dispositivo">
+                  <li><label><input type="radio" name="dispositivo" value="pc">Computador</label></li>
+                  <li><label><input type="radio" name="dispositivo" value="celular">Celular</label></li>
+                </ul>
+              </div>
+              <button type= "submit">Ingresar</button>  
+            </form>
+        </div>
+       </section>
+        <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="imgs/YachayApp SF.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>YachayApp</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>     
+  </body>
+</html>
