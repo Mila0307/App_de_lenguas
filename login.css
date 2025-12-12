@@ -75,10 +75,6 @@
   background-color: #f38621;
 }
 
-/* -------------------------------------- */
-/* MEDIA QUERY: RESPONSIVE MÓVILES */
-/* -------------------------------------- */
-
 /* Estilos aplicados cuando la pantalla mide 600px o menos */
 @media (max-width: 600px) {
   /* El contenedor principal simula una vista de aplicación */
