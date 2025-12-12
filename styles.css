@@ -26,6 +26,7 @@
   position: absolute;
   display: none;
   width: 9.375rem;
+  background-color: aqua;
 }
 .Menu-Horizontal li a:hover {
   color: rgb(81, 255, 0);
